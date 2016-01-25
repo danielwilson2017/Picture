@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: <Daniel Wilson>
 Credit: <list sources used, if any>
 
 Assignment:
@@ -27,10 +27,18 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+red = Color(0xFF4040, 1.0)
+blue = Color(0x40FFFF, 1.0)
+green = Color(0x000000, 1.0)
+purple = Color(0xA040FF, 1.0)
 
+thickline = LineStyle(5, purple)
+ellipse1 = EllipseAsset(50, 70, thickline, blue)
+
+Sprite(ellipse1)
 
 # add your code here /\  /\  /\
-
+#http://www.colorpicker.com
 
 myapp = App()
 myapp.run()
