@@ -31,11 +31,26 @@ red = Color(0xFF4040, 1.0)
 blue = Color(0x40FFFF, 1.0)
 green = Color(0x000000, 1.0)
 purple = Color(0xA040FF, 1.0)
+dblue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
 
 thickline = LineStyle(5, purple)
-ellipse1 = EllipseAsset(50, 70, thickline, blue)
+thinline = LineStyle(2.5, black)
+noline = LineStyle(1, black)
+ellipse1 = EllipseAsset(250, 300, thickline, dblue)
+ellipse2 = EllipseAsset(50, 70, thinline, green)
+circle1 = CircleAsset(50, thinline, red)
+circle2 = CircleAsset(50, thinline, purple)
+grin1 = CircleAsset (30, noline, green)
+grin2 = Cir
 
-Sprite(ellipse1)
+
+Sprite(ellipse1, (800, 400))
+Sprite(ellipse2, (800, 400))
+Sprite(circle1, (700, 350))
+Sprite(circle2, (900, 350))
+
+Sprite(grin1, (950, 550))
 
 # add your code here /\  /\  /\
 #http://www.colorpicker.com
