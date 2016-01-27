@@ -36,22 +36,25 @@ black = Color(0x000000, 1.0)
 
 thickline = LineStyle(5, purple)
 thinline = LineStyle(2.5, black)
-noline = LineStyle(1, black)
+noline = LineStyle(1, dblue)
 ellipse1 = EllipseAsset(250, 300, thickline, dblue)
 ellipse2 = EllipseAsset(50, 70, thinline, green)
 circle1 = CircleAsset(50, thinline, red)
 circle2 = CircleAsset(50, thinline, purple)
-grin1 = CircleAsset (30, noline, green)
-grin2 = Cir
-
+grin1 = CircleAsset (30, thinline, green)
+grin2 = CircleAsset (30, noline, dblue)
+smile = PolygonAsset (40, thickline, black)
 
 Sprite(ellipse1, (800, 400))
 Sprite(ellipse2, (800, 400))
 Sprite(circle1, (700, 350))
 Sprite(circle2, (900, 350))
 
-Sprite(grin1, (950, 550))
 
+Sprite(grin1, (950, 540))
+Sprite(grin2, (940, 540))
+
+Sprite(smile, (50, 50))
 # add your code here /\  /\  /\
 #http://www.colorpicker.com
 
