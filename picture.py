@@ -43,7 +43,7 @@ circle1 = CircleAsset(50, thinline, red)
 circle2 = CircleAsset(50, thinline, purple)
 grin1 = CircleAsset (30, thinline, green)
 grin2 = CircleAsset (30, noline, dblue)
-smile = PolygonAsset ([(10, 30), (70, 20), (10, 20)], thickline, purple)
+smile = PolygonAsset ([(10, 40), (80, 20), (10, 30)], thickline, purple)
 
 Sprite(ellipse1, (800, 400))
 Sprite(ellipse2, (800, 400))
