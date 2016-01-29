@@ -44,6 +44,8 @@ circle2 = CircleAsset(50, thinline, purple)
 grin1 = CircleAsset (30, thinline, green)
 grin2 = CircleAsset (30, noline, dblue)
 smile = PolygonAsset ([(0, 75), (125, 30), (0, 50), (-125, 30)], thickline, purple)
+eb = RectangleAsset(150, 30, thickline, red)
+eb2 = RectangleAsset(140, 30, thickline, green)
 
 Sprite(ellipse1, (800, 400))
 Sprite(ellipse2, (800, 400))
@@ -52,7 +54,8 @@ Sprite(circle2, (900, 350))
 Sprite(grin1, (950, 530))
 Sprite(grin2, (940, 530))
 Sprite(smile, (805, 500))
-
+Sprite(eb, (620, 250))
+Sprite(eb2, (820, 250))
 
 # add your code here /\  /\  /\
 #http://www.colorpicker.com
