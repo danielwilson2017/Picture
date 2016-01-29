@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <Daniel Wilson>
-Credit: <list sources used, if any>
+Author: Daniel Wilson
+Credit: none
 
 Assignment:
 
