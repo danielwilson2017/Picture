@@ -49,7 +49,7 @@ smile = PolygonAsset ([(0, 75), (125, 30), (0, 50), (-125, 30)], thickline, purp
 eb = RectangleAsset(150, 30, thickline, red)
 eb2 = RectangleAsset(140, 30, thickline, green)
 prunelle = CircleAsset(25, pline, black)
-pupil = CircleAsset(24, redline, red)
+pupil = CircleAsset(26, redline, black)
 
 Sprite(ellipse1, (800, 400))
 Sprite(ellipse2, (800, 400))
@@ -61,6 +61,7 @@ Sprite(smile, (805, 500))
 Sprite(eb, (620, 250))
 Sprite(eb2, (820, 250))
 Sprite(prunelle, (700, 350))
+Sprite(pupil, (900, 350))
 
 # add your code here /\  /\  /\
 #http://www.colorpicker.com
